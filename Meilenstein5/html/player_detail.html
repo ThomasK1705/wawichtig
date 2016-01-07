@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spielerliste</title>
+    <link rel="stylesheet" href="../css/main.css" type="text/css"/>
+	<link rel="stylesheet" href="../css/player_detail.css" type="text/css" />
+    <script type="text/javascript" src="../js/playerDetails.js"></script>
+</head>
+
+<body onLoad="loadPlayers()">
+<div id="main">
+    <h1 id="meineSpieler">Meine Spieler</h1>
+
+    <div class="tabelleLinks selected">
+      Alle Spieler
+    </div>
+    <div class="tabelleRechts">
+      Meine Favoriten
+    </div>
+
+	<div>
+	
+      <table id="spielerTabelle" border="1">
+        <tr id="tabellenkopf">
+          <td>
+            Spieler
+          </td>
+          <td>
+            Verein
+          </td>
+          <td>
+            Headcoach
+          </td>
+          <td>
+            Assistant
+          </td>
+          <td>
+            Position
+          </td>
+          <td>
+            Aktiv
+          </td>
+          <td>
+            Nummber
+          </td>
+          <td>
+            Jahr
+          </td>
+        </tr>
+      </table>
+	</div>
+	
+    <button id="back" onclick="location.href='home.html'">Zurück</button>
+</div>
+
+</body>
+</html>
